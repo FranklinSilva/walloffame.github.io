@@ -24,12 +24,10 @@ var list = [
 
 
 function start(){
-var global=10;
 	for (var i = 0; i <list.length; i++){
 		createEl(list[i]);
-}
-var newclass = document.getElementById('gratitude');
-newclass.setAtribute('class',' animateH');
+		}
+
 }
 
 function createEl(content){
@@ -70,8 +68,5 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-function animar(){
-	
-}
 
 

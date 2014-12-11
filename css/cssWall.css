@@ -11,6 +11,12 @@
       -moz-animation-duration: 3s;
       -o-animation-name: fadeIn;
       -o-animation-duration: 3s;
+      -webkit-animation-duration: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-duration: 3s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-duration: 3s;
+      -o-animation-iteration-count: infinite;
       animation-name: fadeIn;
       animation-duration: 3s;
       animation-iteration-count: infinite;
@@ -29,6 +35,12 @@
       -o-animation-name: fadeIn;
       -o-animation-duration: 2s;
       animation-name: fadeIn;
+       -webkit-animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-duration: 2s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-duration: 2s;
+      -o-animation-iteration-count: infinite;
       animation-duration: 2s;
       animation-iteration-count: infinite;
 }
@@ -46,6 +58,12 @@
       -o-animation-name: fadeIn;
       -o-animation-duration: 3.5s;
       animation-name: fadeIn;
+       -webkit-animation-duration: 3.5s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-duration: 3.5s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-duration: 3.5s;
+      -o-animation-iteration-count: infinite;
       animation-duration: 3.5s;
       animation-iteration-count: infinite;
 }
@@ -63,6 +81,12 @@
       -o-animation-name: fadeIn;
       -o-animation-duration: 2.5s;
       animation-name: fadeIn;
+       -webkit-animation-duration: 2.5s;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-duration: 2.5s;
+      -moz-animation-iteration-count: infinite;
+      -o-animation-duration: 2.5s;
+      -o-animation-iteration-count: infinite;
       animation-duration: 2.5s;
       animation-iteration-count: infinite;
 }
@@ -80,21 +104,14 @@
       -o-animation-name: fadeIn;
       -o-animation-duration: 1.5s;
       animation-name: fadeIn;
-      animation-duration: 1.5s;
-      animation-iteration-count: infinite;
-}
-
-.animateH{
-	-webkit-animation-name: fadeIn;
-      -webkit-animation-duration: 1.5s;
-      -moz-animation-name: fadeIn;
+       -webkit-animation-duration: 1.5s;
+      -webkit-animation-iteration-count: infinite;
       -moz-animation-duration: 1.5s;
-      -o-animation-name: fadeIn;
+      -moz-animation-iteration-count: infinite;
       -o-animation-duration: 1.5s;
-      animation-name: fadeIn;
+      -o-animation-iteration-count: infinite;
       animation-duration: 1.5s;
       animation-iteration-count: infinite;
-
 }
 
 /*ANIMATION*/
