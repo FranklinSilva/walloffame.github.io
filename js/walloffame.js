@@ -60,8 +60,9 @@ function createEl(content){
 	newtext.setAttribute('y', ''+randomcoordenadeY+'%');
 	newtext.setAttribute('class', ''+randomelement);
 	svg.appendChild(newtext);
-		
-	document.getElementById(''+content).innerHTML = ''+content;
+	var textcontent = document.createTextNode(""+content);
+	newtext.appendChild(textcontent);	
+	//document.getElementById(""+content).innerHTML = ''+content;
 }
 
 function getRandomInt(min, max) {
